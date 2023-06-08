@@ -17,6 +17,7 @@ const catInfo = () => {
     //Edge Case: Breed Not Found
     data[0] === undefined
       ? console.log("Breed not Found")
+      //Print Description
       : console.log(data[0].description);
   });
 };
